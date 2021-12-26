@@ -23,7 +23,7 @@ If you are unsure which method to use for cloning, use the first one.
 
 The `cd` command allows you to change directories. Assuming you are at the directory where you issued the cloning command, type the following on your terminal.
 ```bash
-cd MLEP-public/course1/week1-ungraded-lab
+cd machine-learning-engineering-for-production-public/course1/week1-ungraded-lab
 ```
 This will bring you to the `week1-ungraded-lab` directory. The `ls` command allows you to list the files and directories.
 Type `ls` and let's take a quick look at the content inside `week1-ungraded-lab` directory:
@@ -51,7 +51,7 @@ Conda includes a lot of libraries so if you are only installing it to complete t
 Now we assume that you either successfully installed conda or that it was previously available in your system. The first step is  creating a new developing environment. Let's set a new environment with python 3.7 with this command:
  
 ```bash
-conda create --name mlep-w1-lab python=3.7
+conda create --name mlep-w1-lab python=3.8
 ```
  
 After successfully creating the environment, you need to activate it by issuing this command:
